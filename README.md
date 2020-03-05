@@ -4,3 +4,4 @@ Give me your usernames so I can give you push permissions
 
 Upload anything you code here! 
 
+Warning: do not use the "Add files by upload" functionality unless you want me to make fun of you. 
