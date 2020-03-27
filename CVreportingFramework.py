@@ -5,6 +5,9 @@
 from statistics import mean 
 from sklearn.model_selection import cross_validate
 
+#y must be a pandas series, X must be a pandas dataframe 
+#models must be trained sklearn models 
+
 def hugeFramework(modelSVM, modelLR, modelNN, modelRF, X, y):
     SVM_cv_results = cross_validate(modelSVM, X, y, cv=3) 
     LR_cv_results = cross_validate(modelLR, X, y, cv=3)
